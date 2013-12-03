@@ -21,6 +21,11 @@
 		0B6BEFB1184D9CF5006B87E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6BEF93184D9CF5006B87E9 /* UIKit.framework */; };
 		0B6BEFB9184D9CF5006B87E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BEFB7184D9CF5006B87E9 /* InfoPlist.strings */; };
 		0B6BEFBB184D9CF5006B87E9 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BEFBA184D9CF5006B87E9 /* User_Data_Challenge_SolutionTests.m */; };
+		0B6BEFC6184D9F44006B87E9 /* TLUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BEFC5184D9F44006B87E9 /* TLUserData.m */; };
+		0B6BEFCC184DA24B006B87E9 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BEFC8184DA24B006B87E9 /* person1.jpeg */; };
+		0B6BEFCD184DA24B006B87E9 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BEFC9184DA24B006B87E9 /* person2.jpeg */; };
+		0B6BEFCE184DA24B006B87E9 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BEFCA184DA24B006B87E9 /* person3.jpg */; };
+		0B6BEFCF184DA24B006B87E9 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BEFCB184DA24B006B87E9 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		0B6BEFB6184D9CF5006B87E9 /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		0B6BEFB8184D9CF5006B87E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B6BEFBA184D9CF5006B87E9 /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		0B6BEFC4184D9F44006B87E9 /* TLUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUserData.h; sourceTree = "<group>"; };
+		0B6BEFC5184D9F44006B87E9 /* TLUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLUserData.m; sourceTree = "<group>"; };
+		0B6BEFC8184DA24B006B87E9 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		0B6BEFC9184DA24B006B87E9 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		0B6BEFCA184DA24B006B87E9 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		0B6BEFCB184DA24B006B87E9 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +129,7 @@
 				0B6BEFA4184D9CF5006B87E9 /* TLViewController.h */,
 				0B6BEFA5184D9CF5006B87E9 /* TLViewController.m */,
 				0B6BEFA7184D9CF5006B87E9 /* Images.xcassets */,
+				0B6BEFC7184D9F4C006B87E9 /* Model */,
 				0B6BEF96184D9CF5006B87E9 /* Supporting Files */,
 			);
 			path = "User Data Challenge Solution";
@@ -126,6 +138,10 @@
 		0B6BEF96184D9CF5006B87E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B6BEFC8184DA24B006B87E9 /* person1.jpeg */,
+				0B6BEFC9184DA24B006B87E9 /* person2.jpeg */,
+				0B6BEFCA184DA24B006B87E9 /* person3.jpg */,
+				0B6BEFCB184DA24B006B87E9 /* person4.jpeg */,
 				0B6BEF97184D9CF5006B87E9 /* User Data Challenge Solution-Info.plist */,
 				0B6BEF98184D9CF5006B87E9 /* InfoPlist.strings */,
 				0B6BEF9B184D9CF5006B87E9 /* main.m */,
@@ -150,6 +166,16 @@
 				0B6BEFB7184D9CF5006B87E9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B6BEFC7184D9F4C006B87E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B6BEFC5184D9F44006B87E9 /* TLUserData.m */,
+				0B6BEFC4184D9F44006B87E9 /* TLUserData.h */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6BEFCE184DA24B006B87E9 /* person3.jpg in Resources */,
+				0B6BEFCC184DA24B006B87E9 /* person1.jpeg in Resources */,
 				0B6BEFA8184D9CF5006B87E9 /* Images.xcassets in Resources */,
 				0B6BEF9A184D9CF5006B87E9 /* InfoPlist.strings in Resources */,
+				0B6BEFCF184DA24B006B87E9 /* person4.jpeg in Resources */,
 				0B6BEFA3184D9CF5006B87E9 /* Main.storyboard in Resources */,
+				0B6BEFCD184DA24B006B87E9 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6BEFC6184D9F44006B87E9 /* TLUserData.m in Sources */,
 				0B6BEFA6184D9CF5006B87E9 /* TLViewController.m in Sources */,
 				0B6BEFA0184D9CF5006B87E9 /* TLAppDelegate.m in Sources */,
 				0B6BEF9C184D9CF5006B87E9 /* main.m in Sources */,

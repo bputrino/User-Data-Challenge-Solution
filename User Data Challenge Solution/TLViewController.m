@@ -7,6 +7,7 @@
 //
 
 #import "TLViewController.h"
+#import "TLUserData.h"
 
 @interface TLViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *users = [TLUserData users];
+    
+    NSLog(@"%@",users);
 }
 
 - (void)didReceiveMemoryWarning
