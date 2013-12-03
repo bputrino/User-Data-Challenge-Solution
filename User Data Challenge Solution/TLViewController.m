@@ -20,9 +20,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSArray *users = [TLUserData users];
+    NSArray *usersArray = [TLUserData users];
     
-    NSLog(@"%@",users);
+    NSLog(@"%@",usersArray);
 }
 
 - (void)didReceiveMemoryWarning
